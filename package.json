@@ -1,0 +1,29 @@
+{
+  "name": "takes-callback",
+  "version": "0.0.0",
+  "description": "returns true if a function takes a node-style callback as an argument",
+  "main": "callback.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/btford/takes-callback.git"
+  },
+  "keywords": [
+    "function",
+    "parameters",
+    "arguments",
+    "parsing",
+    "magic"
+  ],
+  "author": "Brian Ford <btford@umich.edu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/btford/takes-callback/issues"
+  },
+  "homepage": "https://github.com/btford/takes-callback",
+  "dependencies": {
+    "fn-params": "0.0.1"
+  }
+}
