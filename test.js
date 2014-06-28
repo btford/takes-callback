@@ -7,4 +7,5 @@ assert(takesCallback({}) === false);
 assert(takesCallback('') === false);
 
 assert(takesCallback(function (cb) {}));
+assert(takesCallback(function (done) {}));
 assert(takesCallback(fs.readFile));

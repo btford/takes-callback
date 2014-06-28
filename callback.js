@@ -4,7 +4,8 @@ var CALLBACK_NAMES = [
   'cb',
   'callback',
   'callback_',
-  'fn'
+  'fn',
+  'done'
 ];
 
 module.exports = function (fn) {
